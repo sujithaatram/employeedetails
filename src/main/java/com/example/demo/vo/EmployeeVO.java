@@ -14,7 +14,7 @@ import javax.crypto.spec.SecretKeySpec;
  */
 public class EmployeeVO {
 
-	private long employeeId;
+	private long employeeID;
 	private String employeeName;
 	private String dateOfBirth;
 
@@ -29,9 +29,9 @@ public EmployeeVO() {
 	
 	
 	
-	public EmployeeVO(long employeeId, String employeeName, LocalDate dateOfBirth) {
+	public EmployeeVO(long employeeID, String employeeName, LocalDate dateOfBirth) {
 		super();
-		this.employeeId = employeeId;
+		this.employeeID = employeeID;
 		this.employeeName = employeeName;
 		this.dateOfBirth = encrypt(dateOfBirth.toString(), KEY);
 	}
@@ -48,12 +48,12 @@ public EmployeeVO() {
 		}
 	}
 
-	public long getEmployeeId() {
-		return employeeId;
+	public long getEmployeeID() {
+		return employeeID;
 	}
 
-	public void setEmployeeId(long employeeId) {
-		this.employeeId = employeeId;
+	public void setEmployeeID(long employeeID) {
+		this.employeeID = employeeID;
 	}
 
 	public String getEmployeeName() {
@@ -82,7 +82,7 @@ public EmployeeVO() {
 
 	@Override
 	public String toString() {
-		return "EmployeeVO [employeeId=" + employeeId + ", employeeName=" + employeeName + ", dateOfBirth="
+		return "EmployeeVO [employeeID=" + employeeID + ", employeeName=" + employeeName + ", dateOfBirth="
 				+ dateOfBirth + "]";
 	}
 

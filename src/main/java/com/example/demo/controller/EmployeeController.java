@@ -21,7 +21,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @RestController
 @Slf4j
-@RequestMapping("/capstone/Employee")
+@RequestMapping("Employee")
 public class EmployeeController {
 
 	@Autowired
@@ -30,7 +30,7 @@ public class EmployeeController {
 	@GetMapping("/get/{employeeID}")
 	public EmployeeVO getEmployeeById(@PathVariable long employeeID)
 			throws EmployeeIDException, InValidEmployeeIDException {
-		logger.info("Getting user by ID: {}", employeeID + " checking..............");
+		logger.info("Getting user by ID: {}", employeeID );
 		
 		return employeeService.getEmployeeById(employeeID);
 	}

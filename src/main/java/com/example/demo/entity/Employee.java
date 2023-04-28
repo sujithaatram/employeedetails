@@ -29,7 +29,7 @@ public class Employee {
 
 	
 	@Id
-	@Column(name = "Employee_ID")
+	@Column(name = "Employee_Id")
 	private long employeeID;
 
 	@Column(name = "Employee_Name")
