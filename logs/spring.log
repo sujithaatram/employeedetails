@@ -17,3 +17,61 @@
 2023-04-29 12:47:34.432  INFO 11468 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-04-29 12:47:34.458  INFO 11468 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-04-29 12:47:34.756  INFO 11468 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-29 17:53:20.557  INFO 8808 --- [restartedMain] c.example.demo.EmployeeInfoApplication   : Starting EmployeeInfoApplication using Java 17.0.6 on DESKTOP-2J4R6PE with PID 8808 (C:\Users\HP\Desktop\Spring-projects\EmployeeInfo\bin\main started by HP in C:\Users\HP\Desktop\Spring-projects\EmployeeInfo)
+2023-04-29 17:53:20.587  INFO 8808 --- [restartedMain] c.example.demo.EmployeeInfoApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-29 17:53:22.126  INFO 8808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-29 17:53:22.127  INFO 8808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-29 17:53:43.757  INFO 8808 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-29 17:53:45.128  INFO 8808 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1240 ms. Found 1 JPA repository interfaces.
+2023-04-29 17:53:46.897  INFO 8808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$781b53d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-29 17:53:47.295  INFO 8808 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-29 17:53:50.370  INFO 8808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9595 (https)
+2023-04-29 17:53:50.496  INFO 8808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-29 17:53:50.498  INFO 8808 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-29 17:53:51.108  INFO 8808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-29 17:53:51.111  INFO 8808 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 28981 ms
+2023-04-29 17:53:51.267  INFO 8808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-29 17:53:56.002  INFO 8808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-29 17:53:56.070  INFO 8808 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/Employee_Managment_System'
+2023-04-29 17:53:58.308  INFO 8808 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-29 17:53:59.401  INFO 8808 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-29 17:54:03.016  INFO 8808 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-29 17:54:05.167  INFO 8808 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-29 17:54:12.922  INFO 8808 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-29 17:54:13.024  INFO 8808 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-29 17:54:16.836  WARN 8808 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-29 17:54:28.901  INFO 8808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-29 17:54:30.360  INFO 8808 --- [restartedMain] o.a.t.util.net.NioEndpoint.certificate   : Connector [https-jsse-nio-9595], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/HP/Desktop/Spring-projects/EmployeeInfo/bin/main/capstone.p12] using alias [myalias] and with trust store [null]
+2023-04-29 17:54:30.477  INFO 8808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9595 (https) with context path ''
+2023-04-29 17:54:30.563  INFO 8808 --- [restartedMain] c.example.demo.EmployeeInfoApplication   : Started EmployeeInfoApplication in 76.281 seconds (JVM running for 104.644)
+2023-04-29 17:59:08.790  INFO 8808 --- [https-jsse-nio-9595-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-29 17:59:08.810  INFO 8808 --- [https-jsse-nio-9595-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-29 17:59:09.010  INFO 8808 --- [https-jsse-nio-9595-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 199 ms
+2023-04-29 17:59:09.484  INFO 8808 --- [https-jsse-nio-9595-exec-6] c.e.demo.controller.EmployeeController   : Getting user by ID: 103
+2023-04-29 18:16:53.678  INFO 8808 --- [https-jsse-nio-9595-exec-8] c.e.demo.controller.EmployeeController   : Getting user by ID: 102
+2023-04-29 18:20:45.276  INFO 8808 --- [https-jsse-nio-9595-exec-6] c.e.demo.controller.EmployeeController   : Getting user by ID: 102
+2023-04-29 18:24:03.810  INFO 8808 --- [RMI TCP Connection(34)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-29 18:24:04.135  INFO 8808 --- [RMI TCP Connection(34)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-29 18:24:04.259  INFO 8808 --- [RMI TCP Connection(34)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-29 18:24:04.732  INFO 8808 --- [RMI TCP Connection(34)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-29 18:24:05.109  INFO 8808 --- [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-29 18:24:05.154  INFO 8808 --- [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-29 19:06:42.696  INFO 10888 --- [Test worker] c.e.demo.EmployeeInfoApplicationTests    : Starting EmployeeInfoApplicationTests using Java 11.0.19 on DESKTOP-2J4R6PE with PID 10888 (started by HP in C:\capstoneemployee\EmployeeInfo)
+2023-04-29 19:06:42.714  INFO 10888 --- [Test worker] c.e.demo.EmployeeInfoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-04-29 19:06:48.658  INFO 10888 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-29 19:06:49.517  INFO 10888 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 813 ms. Found 1 JPA repository interfaces.
+2023-04-29 19:06:50.682  INFO 10888 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5bd3cc19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-29 19:06:51.276  INFO 10888 --- [Test worker] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-29 19:06:52.350  INFO 10888 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-29 19:06:52.708  INFO 10888 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-29 19:06:53.629  INFO 10888 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-29 19:06:54.532  INFO 10888 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-29 19:06:59.346  INFO 10888 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-29 19:06:59.564  INFO 10888 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-29 19:07:05.965  INFO 10888 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-29 19:07:06.006  INFO 10888 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-29 19:07:08.037  WARN 10888 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-29 19:07:14.627  INFO 10888 --- [Test worker] c.e.demo.EmployeeInfoApplicationTests    : Started EmployeeInfoApplicationTests in 33.236 seconds (JVM running for 38.162)
+2023-04-29 19:07:15.287  INFO 10888 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-29 19:07:15.327  INFO 10888 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-29 19:07:15.449  INFO 10888 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
